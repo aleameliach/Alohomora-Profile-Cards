@@ -1,4 +1,4 @@
-# Alohomora Cards!
+# 🪄🧙🏻‍♂️Alohomora Cards🧙🏽🪄
 
 Hello there! the Head of Administration at Hogwarts has given us the task to create new access cards, so that the school can adapt to modern times. In this repository you'll find how to create your own Alohomora card that will grant you access throughout the campus.
 
@@ -10,9 +10,10 @@ This is a group project created for the second module of **Adalab's Coding Bootc
 
 It was developed using: 
 
-* **HTML**
-* **Sass**
-* **Javascript**
+![https://github-readme-stats.vercel.app/api?username=marocena26&show_icons=true&theme=transparent](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 ## Getting Started
 
