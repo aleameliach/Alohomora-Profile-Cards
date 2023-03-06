@@ -1,5 +1,5 @@
 .header {
-  background-color: $white-two;
+  width: 100vw;
   background-color: $header-bkg;
   &-image {
     width: 6rem;
@@ -15,7 +15,7 @@
     }
   }
   @media (min-width: 1200px) {
-    max-width: rem(1500);
+    max-width: rem(1800);
     margin: auto;
   }
 }
