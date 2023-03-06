@@ -1,7 +1,5 @@
 'use strict';
 
-// const { render } = require("node-sass");
-
 function renderSection(formContainer1, formContainer2, arrow1, arrow2, container, arrowDown) {
   formContainer1.classList.add('hidden');
   formContainer2.classList.add('hidden');
@@ -13,23 +11,18 @@ function renderSection(formContainer1, formContainer2, arrow1, arrow2, container
   container.style.height = container.scrollHeight + 'px';
 }
 
-// funcion manejadora diseño
-function handleClickDesignArrow(ev) {
-  ev.preventDefault();
+function handleClickDesignArrow() {
   renderSection(formContainerFill, formContainerShare, arrowDownFill, arrowDownShare, formContainerDesign, arrowDownDesign);
 }
-// funcion manejadora de las flechas del formulario
-function handleClickFillArrow(ev) {
-  ev.preventDefault();
+
+function handleClickFillArrow() {
   renderSection(formContainerDesign, formContainerShare, arrowDownDesign, arrowDownShare, formContainerFill, arrowDownFill);
 }
-// funcion manejadora share
-function handleClickShareArrow(ev) {
-  ev.preventDefault();
+
+function handleClickShareArrow() {
   renderSection(formContainerDesign, formContainerFill, arrowDownFill, arrowDownDesign, formContainerShare, arrowDownShare);
 }
 
-// Eventos
 arrowDesign.addEventListener('click', handleClickDesignArrow);
 arrowFill.addEventListener('click', handleClickFillArrow);
 arrowShare.addEventListener('click', handleClickShareArrow);
